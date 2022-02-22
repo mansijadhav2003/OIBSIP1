@@ -1,0 +1,100 @@
+body{
+    height: 100vh;
+    background-image: url("./bg.jpg");
+    background-position: center;
+    background-size: cover;
+    display:block;
+    justify-self: center;
+    justify-content: center;
+
+    text-align: center !important;
+    align-items: center !important;
+    margin: 0px auto !important;
+    background-color: #e5e8ec !important;
+}
+
+#mainDiv{
+    display: inline-block;
+
+    width: 50%;
+    height: 900px;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    background: radial-gradient(at 50% 0%,rgba(0,0,0,0),rgba(255,255,255,0.3));
+    transition: all 0.3s  ease-in-out;
+
+    box-shadow: 10px 10px 40px rgba(0,0,0,0.7) !important;
+    padding: 20px;
+}
+#mainDiv:hover{
+    transform: scale(1.05);
+    backdrop-filter: blur(10px);
+    background: radial-gradient(at 50% 0%,rgba(0,0,0,0),rgba(255,255,255,0.3));
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.5);
+
+}
+
+.form-control{
+    display: inline-block !important;
+    width: 60% !important;
+    height: 50px !important;
+    font-size: 18px !important;
+    margin-top: 50px !important;
+}
+
+.btn-primary{
+    margin: 10px;
+    width: 100px !important;
+    height: 50px !important;
+    font-size: 18px !important;
+}
+#delete-all{
+    margin: 10px;
+    width: 100px !important;
+    height: 50px !important;
+    font-size: 18px !important;
+}
+
+#todo-items{
+    margin: 10px;
+}
+
+
+#todo-items ul li button{
+    float: right;
+    margin-right: 5px;
+}
+
+#todo-items ul li{
+    text-align: left;
+    font-size: 18px;
+    margin: 2px;
+}
+
+#inputDiv{
+    border-bottom: 4px solid #bea08b;
+}
+
+#heading{
+    color: #2f39c4;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+    margin-top: 150px;
+}
+#img-div{
+    background: #ffff;
+    margin: 20px 0 20 px 0;
+    padding: 10px 10%;
+}
+img{
+ 
+    display: block;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
